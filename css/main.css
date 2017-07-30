@@ -77,13 +77,8 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 /*******************************************************/
-/* PRESS SECTION */
+/* TITLE SECTIONS */
 /*******************************************************/
-
-.press {
-    display: flex;
-    flex-direction: column;
-}
 
 .title-section {
     padding: 125px 0 75px 0;
@@ -94,6 +89,15 @@ h1, h2, h3, h4, h5, h6, p {
     letter-spacing: 35px;
     font-size: 63px;
     margin: 0;
+}
+
+/*******************************************************/
+/* PRESS SECTION */
+/*******************************************************/
+
+.press {
+    display: flex;
+    flex-direction: column;
 }
 
 .news-section {
@@ -121,13 +125,12 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .news-card-content {
-    padding: 0 10%;
+    padding: 10%;
 }
 
 .news-card-author {
     display: flex;
     flex-direction: row;
-    margin-top: 20px;
 }
 
 .news-card-author > img {
@@ -140,58 +143,56 @@ h1, h2, h3, h4, h5, h6, p {
     align-self: center;
     display: inline-block;
     font-size: 16px;
-    margin: 0;
     letter-spacing: 2px;
     line-height: 1.4em;
     padding-left: 10px;
 }
 
 .news-card-title > h3 {
+    margin: 25px 0;
+    width: 100%;
     font-size: 20px;
     letter-spacing: 3px;
     line-height: 1.8em;
     font-weight: bolder;
-    width: 100%;
 }
 
 .news-card-text > p {
-    line-height: 1.6em;
-    letter-spacing: 1px;
     font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 1.6em;
 }
 
 .news-card-divider {
     margin: 50px 0 0 0;
-    border: 1px solid #000;
+    border: 1px solid #212121;
 }
 
 .news-card-footer {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
 }
 
 .news-card-footer > h6 {
+    margin: 25px 0;
     font-size: 14px;
-    margin: 30px 0 30px 0;
     letter-spacing: 2px;
     line-height: 1.4em;
 }
 
 .news-card-tag {
     font-weight: 900;
-    color: #212121;
 }
 
 .news-card-date {
-    font-weight: 100;
-    color: #9E9E9E;
-    width: 100%;
     text-align: right;
+    width: 100%;
+    color: #9E9E9E;
+    font-weight: 100;
 }
 
 .more-section {
-    padding: 125px 0 125px 0;
+    padding: 125px 0;
     text-align: center;
 }
 
@@ -201,13 +202,13 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .more-section > button {
-    background-color: #FFF;
-    border: 2px solid #212121;
     position: relative;
     top: -28px;
-    font-size: 24px;
     padding: 12px 28px;
+    border: 2px solid #212121;
     border-radius: 100px;
+    background-color: #FFF;
+    font-size: 24px;
     letter-spacing: 3px;
 }
 
