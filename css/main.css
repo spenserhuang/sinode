@@ -21,6 +21,10 @@ a {
     color: #212121;
 }
 
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: 0;
+}
 
 /*******************************************************/
 /* LANDING SECTION */
@@ -39,40 +43,36 @@ a {
 }
 
 .nav-bar > .logo > img {
-    margin-top: 25px;
-    margin-left: 25px;
+    margin: 25px 0 0 25px;
     height: 50px;
 }
 
 .lang {
     flex-grow: 1;
     text-align: right;
-    margin-right: 15px;
+    margin-right: 25px;
 }
 
 .lang > h5 {
     display: inline-block;
-    margin: 40px 10px 0 0;
+    margin: 40px 0 0 15px;
     font-size: 16px;
 }
 
 .title {
-    margin: 150px 0 225px 0;
-    padding: 30px;
+    margin: 175px 0 250px 0;
 }
 
 .title > h1 {
-    font-size: 100px;
     margin: 0;
-    color: #4A148C;
+    font-size: 100px;
     letter-spacing: 10px;
 }
 
 .title > h3 {
     margin: 0;
-    font-size: 28px;
     padding-top: 15px;
-    color: #212121;
+    font-size: 28px;
     letter-spacing: 3px;
 }
 
@@ -107,19 +107,11 @@ a {
     flex-basis: 25%;
 }
 
-.news-card:nth-child(1) {
+.news-card:nth-child(1), .news-card:nth-child(3) {
     background-color: #F0F0F0;
 }
 
-.news-card:nth-child(2) {
-    background-color: #F7F7F7;
-}
-
-.news-card:nth-child(3) {
-    background-color: #F0F0F0;
-}
-
-.news-card:nth-child(4) {
+.news-card:nth-child(2), .news-card:nth-child(4) {
     background-color: #F7F7F7;
 }
 
