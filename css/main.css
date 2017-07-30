@@ -216,12 +216,88 @@ h1, h2, h3, h4, h5, h6, p {
 /* TECH SECTION */
 /*******************************************************/
 
+.showcase-section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
 
+.showcase-text {
+    flex-grow: 1;
+    flex-basis: 35%;
+    align-self: center;
+    padding: 7.5%;
+    text-align: center;
+}
+
+.showcase-text > h3 {
+    font-size: 24px;
+    letter-spacing: 2px;
+    line-height: 2em;
+}
+
+.showcase-img {
+    flex-grow: 1;
+    flex-basis: 50%;
+    align-self: center;
+}
+
+.showcase-img > img {
+    width: 100%;
+    min-width: 325px;
+}
+
+.main-points-section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 125px;
+}
+
+.main-point {
+    flex-grow: 1;
+    flex-basis: 27.3%;
+    padding: 3%
+}
+
+.point-img > img {
+    width: 33.3%;
+}
+
+.point-text > h3 {
+    margin: 25px 0;
+    font-size: 24px;
+    letter-spacing: 2px;
+}
+
+.point-text > p {
+    font-size: 18px;
+    letter-spacing: 2px;
+    line-height: 1.8em;
+}
 
 /*******************************************************/
 /* PARTNERS SECTION */
 /*******************************************************/
 
+.partners-list-section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 125px;
+}
+
+.partner-logo {
+    flex-grow: 1;
+    flex-basis: 15%;
+}
+
+.partner-logo > img {
+    width: 70%;
+    min-width: 100px;
+    padding: 0 15%;
+}
 
 
 /*******************************************************/
